@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noinex, nofollow">
+    <meta name="description" content="JavaScriptの課題作品です。">
+    <link rel="stylesheet" href="css/style.css">
+    <title>好みから選ぶ | my_shop</title>
+</head>
+
+<body id="up" class="next-page">
+    <div id="top">
+        <header class="hat">
+            <div class="container">
+                <div class="wrapper">
+                    <h1><a href="index.html">🛒my_shop</a></h1>
+                    <p class="description">Welcome to my shop!</p>
+                </div>
+                <div class="search">
+                    <form action="" id="text-title">
+                        What are you searching......<br>
+                        <input type="text" id="mySearch" name="word" placeholder="">
+                        <input type="submit" value="search" class="What">
+                    </form><br>
+                    <p id="output"></p>
+                </div><br>
+                <div class="hamburger" id="open_nav">
+                    <img src="hamburger.png" alt="">
+                </div>
+            </div>
+        </header>
+    </div>
+    <main>
+        <div class="nt-page preference-page">
+            <section class="preference-heading">
+                <p class="eyebrow">FIND YOUR SCENT</p>
+                <h2>どんな香りが好き？</h2>
+                <p>気分や好みに近い香りを選んで、コレクションを見てみましょう。</p>
+            </section>
+            <section class="preference-grid" aria-label="香りの好みを選ぶ">
+                <a class="preference-card woody" href="kaori.html">
+                    <span>01</span>
+                    <h3>ウッディ</h3>
+                    <p>木々や樹脂の落ち着いた深み</p>
+                </a>
+                <a class="preference-card floral" href="kaori.html">
+                    <span>02</span>
+                    <h3>フローラル</h3>
+                    <p>花々の華やかでやわらかな印象</p>
+                </a>
+                <a class="preference-card spicy" href="kaori.html">
+                    <span>03</span>
+                    <h3>スパイシー</h3>
+                    <p>個性を引き出す刺激的な香り</p>
+                </a>
+                <a class="preference-card fresh" href="kaori.html">
+                    <span>04</span>
+                    <h3>フレッシュ</h3>
+                    <p>柑橘やグリーンの透明感</p>
+                </a>
+            </section>
+        </div>
+        <div class="up" aria-hidden="true">
+            <a href="#up" aria-label="ページトップへ戻る">
+                <img src="top_logo.jpg" alt="ページトップへ戻る">
+            </a>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <small>&copy; 2026 my_shop. All rights reserved.</small>
+        </div>
+    </footer>
+
+
+    <nav id="nav">
+        <div class="logo"><img src="perfume-shop.svg" alt=""></div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="next.html">next-page</a></li>
+            <li><a href="kaori.html">香り一覧</a></li>
+            <li><a href="brand.html">ブランド</a></li>
+            <li><a href="contact.html">お問い合わせ</a></li>
+        </ul>
+    </nav>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
